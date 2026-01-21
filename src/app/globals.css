@@ -16,6 +16,16 @@ body {
   @apply scroll-smooth;
 }
 
+body {
+  @apply bg-black text-white;
+}
+
 .container {
   @apply mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1320px] px-3;
+}
+
+/* [ Header / Navbar ] */
+/*================================================== */
+.primary-menu ul.menu li a {
+  @apply h-auto lg:h-[90px] flex items-center justify-center py-4 lg:py-0 px-4 hover:text-orange-500 duration-300;
 }
