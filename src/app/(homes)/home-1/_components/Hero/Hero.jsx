@@ -13,7 +13,7 @@ const Hero = () => {
                             <div className='w-20 md:w-33 h-0.5 bg-white'></div>
                             <span className='uppercase w-36.75 block'>Welcome to our website</span>
                         </div>
-                        <p className='lg:max-w-103 leading-[1.8]'>Every picture tells a unique story, capturing the beauty of life's fleeting moments. At PrismLens, we bring your memories to life with vibrant, timeless photography.</p>
+                        <p className='lg:max-w-103 leading-[1.8]'>{`Every picture tells a unique story, capturing the beauty of life's fleeting moments. At PrismLens, we bring your memories to life with vibrant, timeless photography.`}</p>
                     </div>
                     <div className='w-full lg:w-5/12 px-3 relative mt-8 lg:mt-0'>
                         <div>
