@@ -13,7 +13,7 @@ const NavMenu = () => {
                 {openMenu ? <RiCloseLargeFill /> : <HiMiniBars3CenterLeft />}
             </button>
 
-            <ul className={`${openMenu ? 'opacity-100 translate-y-0' : 'opacity-0 lg:opacity-100 translate-y-1.5 lg:translate-y-0'} duration-300 absolute lg:sticky bg-gray-900/80 lg:bg-transparent right-0 left-0 menu flex flex-col lg:flex-row items-center p-4 lg:p-0`}>
+            <ul className={`${openMenu ? 'opacity-100 translate-y-0 visible' : 'opacity-0 lg:opacity-100 translate-y-1.5 lg:translate-y-0 invisible lg:visible'} duration-300 absolute lg:sticky bg-gray-900/80 lg:bg-transparent right-0 left-0 menu flex flex-col lg:flex-row items-center p-4 lg:p-0`}>
                 <li>
                     <Link href='/'>Home</Link>
                 </li>
